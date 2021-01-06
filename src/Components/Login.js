@@ -43,7 +43,7 @@ export const Login = () => {
         </p>
        
       <h5 style={{marginTop:'-16px',color:'white'}} className="forgot-password forgotpassword text-right ">
-        <Link to="/forgetpass" style={{textDecoration:'none', color:'white'}}>
+        <Link to="/forgetpass" style={{textDecoration:'none', color:'white',fontSize:'15px'}}>
         Forgot Password?
         </Link>
         </h5>

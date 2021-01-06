@@ -10,6 +10,10 @@
     color: #eee;
     text-align: left;  
   }
+  .submit_reg{
+    padding:4% !important;
+    width: 80%;
+  }
   .custom-control-input:checked~.custom-control-label:before{
     border-color: #32324d !important;
     background-color: #32324d !important;
@@ -27,7 +31,7 @@
     border-radius: 4px;
     background-color: rgb(50, 50, 77);
     color: white;
-    padding: 3px;
+    padding: 4%;
   }
   .cardsignup {
     /* box-shadow: 2px 8px 20px #ddd; */

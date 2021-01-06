@@ -85,7 +85,7 @@ export const Signup = () => {
             </Col>
             <Col>
         <p style={{textAlign:'right'}}>
-        <Button color="secondary"style={{ color:"white",  backgroundColor:'#32324d'}} className="submit">Submit</Button>
+        <Button color="secondary"style={{ color:"white",  backgroundColor:'#32324d' }} className="submit_reg">Register</Button>
         </p>
             </Col>
           </Row>

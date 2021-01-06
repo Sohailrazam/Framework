@@ -186,6 +186,11 @@ h5.forgotpassword{
 }
 .media_forget_btn{
   text-align: center !important;
+
+}
+.dateset{
+  position: relative;
+  left: -74%;
 }
 .reg{
   font-size: medium;
@@ -195,5 +200,15 @@ h5.forgotpassword{
 }
 .username-post{
   display: block;
+  font-size: 10px !important;
+}
+
+.submit_btn_forgt{
+width: 45% !important;
+}
+.toolblog{
+  left: 150px;
+  top: -6px;
+  /* margin-top: 13px !important; */
 }
 }

@@ -24,11 +24,11 @@ export const ForgetPassword = () => {
           <Row></Row>
         </div>
         <Col>
-          <p className="media_forget_btn" style={{ padding: "3px", textAlign: "right" }}>
+          <p className="media_forget_btn" style={{ padding: "1%", textAlign: "right" }}>
             <Button
               color="secondary"
-              style={{ color: "white", backgroundColor: "#32324d" }}
-              className="submit "
+              style={{ width:'28%',color: "white", backgroundColor: "#32324d" }}
+              className="submit_btn_forgt"
             >
               Send Email
             </Button>

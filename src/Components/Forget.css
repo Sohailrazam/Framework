@@ -44,7 +44,11 @@
     justify-content: center;
     transition: 0.5s linear;
 }
+.submit_btn_forgt {
+    padding:4px !important;
 
+    margin-right:-22px ;
+}
 .setforget {
     margin-top: 4% !important;
     width: 55%;
