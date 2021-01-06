@@ -112,7 +112,9 @@ body, html, .App, #root, .auth-wrapper {
 }
 @media (max-width:480px){
   .card{
-    width:90% !important
+    width:100% !important;
+
+
   }
   .stylefontmed{
    font-size:  33px;
@@ -132,7 +134,8 @@ body, html, .App, #root, .auth-wrapper {
     font-size: 15px;
   }
   .getToknow{
-     font-size:  18px
+     font-size:  18px;
+     margin-top: 7px;
   }
   .styleTryitbuttmed{
     display: block !important;
@@ -156,10 +159,14 @@ body, html, .App, #root, .auth-wrapper {
 }
 .setsignup{
   width: 94% !important;
+  /* padding: 0 !important; */
 }
 .menus {
   justify-content: center;
   text-align: center;
+}
+.jstfy_content{
+  font-size:  21px;
 }
 .hideMed{
   display: none !important;
@@ -189,8 +196,10 @@ h5.forgotpassword{
 
 }
 .dateset{
-  position: relative;
-  left: -74%;
+  /* position: relative;
+  left: -74%; */
+  display: block;
+  text-align: left !important;
 }
 .reg{
   font-size: medium;
@@ -200,18 +209,30 @@ h5.forgotpassword{
 }
 .username-post{
   display: block;
-  font-size: 10px !important;
-}
+  padding-left: 1px;
 
+  font-size: 15px  !important;
+}
+getToknow 
 .submit_btn_forgt{
 width: 45% !important;
+margin-top: 8px;
 }
 .toolblog{
-  left: 150px;
-  top: -6px;
+ text-align: right; 
+ display: block !important;
+ top: 20px !important;
+  /* top: 20px; */
   /* margin-top: 13px !important; */
 }
 .robotclass{
   width: 55vw;
+  margin-bottom: 10px;
+}
+.font_all_lbl{
+  font-size: 14px;
+}
+.text_blog_post{
+  padding-left: 15px !important;
 }
 }

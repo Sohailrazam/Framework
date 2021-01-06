@@ -31,34 +31,34 @@ export const Blog = () => {
               
           </Row>
           <Row className="card-new-post">
-            
-
-            <Col  xs="5" >
-            <p className="username-post" style={{fontSize:'14px'}}>
-            Posted by &#x3c;username&#x3e;
-            </p>
-            </Col>
-            <Col xs="7" >
-            <div className="toolblog">
+       
+ 
+          <Col  className="col-12 col-sm-5" >
+                  <p className="username-post" style={{fontSize:'14px'}}>
+                  Posted by &#x3c;username&#x3e;
+                  </p>
+                  </Col>
+                  <Col className="col-12 col-sm-7"  >
+                  <div className="toolblog">
 
 <img src='/pen.svg' height="20px" width='15px' alt="add" />
 
 <img style={{ marginLeft: '12px' }} src='/del.svg' height="20px" width='15px' alt="add" />
 </div>
-            {/* <p>{(new Date()).toDateString()}</p> */}
-            <p className="dateset">Sunday, the 27th of december 2020
-            <br/>
-            {/* <code className="timeset" style={{color:"#babad8",}}> */}
-              
-              2:24 pm
-              {/* </code> */}
-              </p>
-            </Col>
+                  {/* <p>{(new Date()).toDateString()}</p> */}
+                  <p className="dateset">Sunday, the 27th of december 2020
+                  <br/>
+          
+                    
+                    2:24 pm
+                    {/* </code> */}
+                    </p>
+                  </Col>
         
-        <h6 style={{color:'#d2d2e3',paddingLeft:'25px'}}>Why framework matters? </h6>
+        <h6  className="text_blog_post jstfy_content" style={{color:'#d2d2e3',paddingLeft:'25px'}}>Why framework matters? </h6>
 
   
-        <p className="lead sub-head-style">
+        <p className="lead  jstfy_content sub-head-style">
         Because the headline only needs  one line here is space to displ(...)
 
         </p>
@@ -69,12 +69,12 @@ export const Blog = () => {
           <Row className="card-new-post2">
             
  
-                  <Col  xs="5" >
+                  <Col  className="col-12 col-sm-5" >
                   <p className="username-post" style={{fontSize:'14px'}}>
                   Posted by &#x3c;username&#x3e;
                   </p>
                   </Col>
-                  <Col xs="7" >
+                  <Col className="col-12 col-sm-7"  >
                   <div className="toolblog">
 
 <img src='/pen.svg' height="20px" width='15px' alt="add" />
@@ -91,7 +91,7 @@ export const Blog = () => {
                     </p>
                   </Col>
               
-              <h6 style={{color:'#d2d2e3',paddingLeft:'25px'}}>This heading is a lot bigger than the one above - <br/> at this point the text breaks and continues in th(...)</h6>
+              <h6 className="text_blog_post" style={{color:'#d2d2e3',paddingLeft:'25px'}}>This heading is a lot bigger than the one above - <br/> at this point the text breaks and continues in th(...)</h6>
 
                   </Row>
 
@@ -119,6 +119,34 @@ export const Blog = () => {
             Because the headline only needs one line here is space to display Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 <p className="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p className="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p className="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p className="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p className="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p className="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p className="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p className="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p className="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+        <p className="para">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 <p className="para">

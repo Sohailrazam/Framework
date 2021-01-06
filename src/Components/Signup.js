@@ -17,7 +17,7 @@ export const Signup = () => {
         <Row>
       <Col>
       <div className="form-group text-left">
-          <label  style={{color:'yellow'}}>First Name</label>
+          <label className="font_all_lbl" style={{color:'yellow'}}>First Name</label>
           <input
           required
             type="Fname"
@@ -30,7 +30,7 @@ export const Signup = () => {
 
       <Col>
       <div className="form-group text-left">
-          <label  style={{color:'yellow'}}>Last Name</label>
+          <label className="font_all_lbl"  style={{color:'yellow'}}>Last Name</label>
           <input
             type="Lname"
             required
@@ -45,7 +45,7 @@ export const Signup = () => {
         
         
         <div className="form-group text-left">
-          <label style={{color:'yellow'}}>Email</label>
+          <label className="font_all_lbl" style={{color:'yellow'}}>Email</label>
           <input
             type="email"
             required
@@ -54,7 +54,7 @@ export const Signup = () => {
           />    
         </div>
         <div className="form-group text-left">
-          <label style={{color:'yellow'}}>Password</label>
+          <label className="font_all_lbl" style={{color:'yellow'}}>Password</label>
           <input
             type="password"
             required
@@ -63,7 +63,7 @@ export const Signup = () => {
           />    
         </div>
         <div className="form-group text-left">
-          <label style={{color:'yellow'}}>Confirm Password</label>
+          <label className="font_all_lbl" style={{color:'yellow'}}>Confirm Password</label>
           <input
             type="password"
             required
@@ -85,7 +85,7 @@ export const Signup = () => {
             </Col>
             <Col>
         <p style={{textAlign:'right'}}>
-        <Button color="secondary"style={{ color:"white",  backgroundColor:'#32324d' }} className="submit_reg">Register</Button>
+        <Button color="secondary"style={{ color:"white",  backgroundColor:'#32324d'  }} className="submit_reg">Register</Button>
         </p>
             </Col>
           </Row>

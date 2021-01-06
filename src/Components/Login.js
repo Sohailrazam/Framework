@@ -20,7 +20,7 @@ export const Login = () => {
         {/* <div className="fo" */}
 
         <div className="form-group text-left">
-          <label  style={{color:'yellow'}}>Username</label>
+          <label className="font_all_lbl" style={{color:'yellow'}}>Username</label>
           <input
             type="name"
             className="form-control style_input"
@@ -30,7 +30,7 @@ export const Login = () => {
         </div>
         
         <div className="form-group text-left">
-          <label style={{color:'yellow'}}>Password</label>
+          <label className="font_all_lbl" style={{color:'yellow'}}>Password</label>
           <input
             type="password"
             className="form-control style_input"
