@@ -144,7 +144,7 @@ body, html, .App, #root, .auth-wrapper {
   .style_head_two_med{
     font-size: 15px;
   }
-  .getToknow{
+   .getToknow{
      font-size:  18px;
      margin-top: 7px;
   }
@@ -152,7 +152,7 @@ body, html, .App, #root, .auth-wrapper {
     display: block !important;
     width: auto !important;
     padding: 5px 20px !important;
-    color: wheat;
+    color: black;
     margin: auto;
     position: relative;
     left: 49px;
