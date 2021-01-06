@@ -181,4 +181,19 @@ h5.forgotpassword{
 .content-blog{
   word-break: break-all;
 }
+.setforget{
+  width: 100% !important;
+}
+.media_forget_btn{
+  text-align: center !important;
+}
+.reg{
+  font-size: medium;
+}
+.card_cms{
+  width: auto !important;
+}
+.username-post{
+  display: block;
+}
 }

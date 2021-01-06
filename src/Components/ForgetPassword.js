@@ -1,9 +1,41 @@
-import React from 'react'
+import React from "react";
+import "./Forget.css";
+import { Col, Row, Button, Container } from "reactstrap";
 
 export const ForgetPassword = () => {
-    return (
-        <div>
-            ForgetPassword
+  return (
+    <Container className="themed-container" fluid={true}>
+      <div>
+        <div className="setforget">
+
+      
+        <h4 className="reg">Forget Password?</h4>
+
+        <div className="cardforget">
+          <div className="form-group text-left">
+            <label style={{ color: "yellow" }}>Email</label>
+            <input
+              type="email"
+              className="form-control style_input"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <Row></Row>
         </div>
-    )
-}
+        <Col>
+          <p className="media_forget_btn" style={{ padding: "3px", textAlign: "right" }}>
+            <Button
+              color="secondary"
+              style={{ color: "white", backgroundColor: "#32324d" }}
+              className="submit "
+            >
+              Send Email
+            </Button>
+          </p>
+        </Col>
+        </div>
+      </div>
+    </Container>
+  );
+};

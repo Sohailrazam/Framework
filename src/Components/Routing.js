@@ -13,6 +13,7 @@ import { Framework } from "./Framework";
 import { Content } from "./Content";
 import { Signup } from './Signup'
 import { Blog } from './Blog'
+import {CMS} from './CMS'
 export const Routing = () => {
   return (
     <HashRouter>
@@ -25,6 +26,7 @@ export const Routing = () => {
           <Route exact={true} path="/blog" component={Blog} />
           <Route exact={true} path="/login" component={Login} />
           <Route exact={true} path="/forgetpass" component={ForgetPassword} />
+          <Route exac={true} path="/cms" component={CMS} />
           <Route exact={true} path="*" component={PageNotFound} />
         </Switch>
         {/* </HashRouter> */}

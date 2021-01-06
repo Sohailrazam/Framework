@@ -37,9 +37,12 @@ nav ul li{
   filter: brightness(0) invert(1);
 }
  .navbar-light .navbar-nav .nav-link{
-   color: white !important;
+   color: white !important ;
    font-size: 18px;
 
+ }
+ .navbar-light .navbar-nav a.nav_link_color_y,a.nav_link_color_y span{
+   color: yellow !important;
  }
  .navbar-toggler-icon{
  filter:  brightness(0) invert(1);

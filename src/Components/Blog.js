@@ -1,15 +1,17 @@
 import React from "react";
 import { Col, Row, Container } from "reactstrap";
+import { Link } from "react-router-dom";
+
 import "./blog.css";
 export const Blog = () => {
   return (
     <Container className="themed-container" fluid={true}>
 
       <Row >
-        <Col xs="5" >
+        <Col  className="col-12 col-sm-5" >
           <Row style={{marginTop:'15px'}} >
-            <Col xs="6" sm="4" >
-              <div className="languages" style={{ color: "white" }}>
+          <Col xs="6" >
+              {/* <div className="languages" style={{ color: "white" }}>
                 <a style={{ textDecoration: "none", color: "white" }} href="/">
                   English
                 </a>{" "}
@@ -17,13 +19,13 @@ export const Blog = () => {
                 <a style={{ textDecoration: "none", color: "white" }} href="/">
                   German
                 </a>
-              </div>
+              </div> */}
             </Col>
             <Col xs="6">
                 <p style={{ color: "white",textAlign:'right' }}>
-                <a style={{ fontSize:'30px', textDecoration: "none", color: "white" }} href="/">
+                <Link style={{ fontSize:'30px', textDecoration: "none", color: "white" }} to="/cms">                
                 <img src='/add.svg' height="20px" width='15px' alt="add"/>
-                </a>
+                </Link>
                 </p>
               </Col>
               
@@ -37,8 +39,12 @@ export const Blog = () => {
             </p>
             </Col>
             <Col xs="7" >
-            <i  className="fas fa-pencil-alt icon-blog" style={{color:'white'}}></i>
-            <i  className="far fa-trash-alt icon-blog" style={{color:'white',padding:'13px'}}></i>
+            <div className="toolblog">
+
+<img src='/pen.svg' height="20px" width='15px' alt="add" />
+
+<img style={{ marginLeft: '12px' }} src='/del.svg' height="20px" width='15px' alt="add" />
+</div>
             {/* <p>{(new Date()).toDateString()}</p> */}
             <p className="dateset">Sunday, the 27th of december 2020
             <br/>
@@ -69,12 +75,16 @@ export const Blog = () => {
                   </p>
                   </Col>
                   <Col xs="7" >
-                  <i  className="fas fa-pencil-alt icon-blog" style={{color:'white'}}></i>
-                  <i  className="far fa-trash-alt icon-blog" style={{color:'white',padding:'13px'}}></i>
+                  <div className="toolblog">
+
+<img src='/pen.svg' height="20px" width='15px' alt="add" />
+
+<img style={{ marginLeft: '12px' }} src='/del.svg' height="20px" width='15px' alt="add" />
+</div>
                   {/* <p>{(new Date()).toDateString()}</p> */}
                   <p className="dateset">Sunday, the 27th of december 2020
                   <br/>
-                  {/* <code className="timeset" style={{color:"#babad8",}}> */}
+          
                     
                     2:24 pm
                     {/* </code> */}
@@ -90,11 +100,11 @@ export const Blog = () => {
             
             </Row> 
         </Col>
-        <Col xs="7">
+        <Col className="col-12 col-sm-7">
           <div style={{ color: "white" }}>
         <p className="content-blog" style={{textAlign:'right'}}>
           Do you like this project? - Support us with bitcoin!:)
-          Address:bc1qfadktyn987w3968gngf90fol2m36u4arsspfjn
+          <br/>Address: bc1qfadktyn987w3968gngf90fol2m36u4arsspfjn
         </p>
           <div className="content-div-col2">
             <h5 style={{
@@ -106,7 +116,7 @@ export const Blog = () => {
             Why framework matters ?
             </h5>
             <p className="para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Because the headline only needs one line here is space to display Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 <p className="para">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

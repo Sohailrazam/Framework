@@ -19,6 +19,7 @@ export const Signup = () => {
       <div className="form-group text-left">
           <label  style={{color:'yellow'}}>First Name</label>
           <input
+          required
             type="Fname"
             className="form-control style_input"
             placeholder="Enter first name"
@@ -32,6 +33,7 @@ export const Signup = () => {
           <label  style={{color:'yellow'}}>Last Name</label>
           <input
             type="Lname"
+            required
             className="form-control style_input"
             placeholder="Enter last name"
            
@@ -46,6 +48,7 @@ export const Signup = () => {
           <label style={{color:'yellow'}}>Email</label>
           <input
             type="email"
+            required
             className="form-control style_input"
             placeholder="Enter your email"
           />    
@@ -54,6 +57,7 @@ export const Signup = () => {
           <label style={{color:'yellow'}}>Password</label>
           <input
             type="password"
+            required
             className="form-control style_input"
             placeholder="Enter your password"
           />    
@@ -62,6 +66,7 @@ export const Signup = () => {
           <label style={{color:'yellow'}}>Confirm Password</label>
           <input
             type="password"
+            required
             className="form-control style_input"
             placeholder="Confirm your password"
           />    

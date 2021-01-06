@@ -7,7 +7,8 @@ import {
   NavItem,
   NavbarText
 } from 'reactstrap';
-import { Link } from 'react-router-dom'
+import { NavLink,Link } from "react-router-dom";
+
 
 import './header.css'
 
@@ -24,32 +25,32 @@ const Header = (props) => {
         <Collapse color="white" className="menus" isOpen={isOpen} navbar>
           <Nav center className="mr-auto ml-auto" navbar>
             <NavItem>
-              <Link replace={true} className="nav-link" to="/">
+              <NavLink activeClassName="nav_link_color_y" replace={true} className="nav-link" to="/">
                 <img className="logoc" height="23px" width="23px" src="/instrumentm.svg" alt="logo" />
-              </Link>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <Link replace={true} className="nav-link" style={{ textDecoration: 'none', color: 'wheat' }} to="/framework">framework</Link>
+              <NavLink replace={true} className="nav-link" activeClassName="nav_link_color_y" to="/framework">framework</NavLink>
             </NavItem>
             <NavItem>
-              <Link replace={true} className="nav-link" to="/support">support</Link>
+              <NavLink replace={true} activeClassName="nav_link_color_y" className="nav-link" to="/support">support</NavLink>
             </NavItem>
             <NavItem>
-              <Link replace={true} className="nav-link" to="/about">about</Link>
+              <NavLink replace={true} activeClassName="nav_link_color_y" className="nav-link" to="/about">about</NavLink>
             </NavItem>
 
             <NavItem>
-              <Link replace={true} className="nav-link" to="/blog">blog</Link>
+              <NavLink replace={true} activeClassName="nav_link_color_y" className="nav-link" to="/blog">blog</NavLink>
             </NavItem>
           </Nav>
-          <Link replace={true} to="/login">
+          <NavLink replace={true} to="/login" activeClassName="nav_link_color_y" >
             <NavbarText className="hideMed" style={{ color: 'white' }}>
               Jan Homriguasen
           </NavbarText>
             <NavbarText>
               <img className="iconacco" height="24px" width="50px" src="/user.svg" alt="logo" />
             </NavbarText>
-          </Link>
+          </NavLink>
         </Collapse>
       </Navbar>
       {/* <Content/> */}

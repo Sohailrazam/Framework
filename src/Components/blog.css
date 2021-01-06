@@ -6,6 +6,12 @@
     font-size: 30px;
     color: white;
 }
+.toolblog{
+    position: relative;
+    bottom: 12px;
+    right: 7px;
+    display: inline;
+}
 .card-new-post{
     background-color:#373752;
     padding:3px;

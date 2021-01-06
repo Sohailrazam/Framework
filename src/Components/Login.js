@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import "./login.css";
 import {  Button } from 'reactstrap';
 
@@ -48,10 +48,10 @@ export const Login = () => {
         </Link>
         </h5>
         <p style={{textAlign:'center'}}>
-        <Link to="/signup" >
+        <NavLink to="/signup" activeClassName="selected" >
           <Button color="secondary"style={{ color:"white",  backgroundColor:'#32324d'}} className="signup">Signup Here</Button>
           
-          </Link>
+          </NavLink>
         </p>
       </form>
     </div>
