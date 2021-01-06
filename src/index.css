@@ -119,6 +119,17 @@ body, html, .App, #root, .auth-wrapper {
   .stylefontmed{
    font-size:  33px;
   }
+  .card-new-post{
+    margin-right: 0px !important;
+  }
+  .card-new-post2{
+    margin-right: 0px !important;
+
+  }
+  .card-new-post3{
+    margin-right: 0px !important;
+
+  }
   .stylebuttmed{
     width: 150px !important;
     margin-bottom: 6px;
